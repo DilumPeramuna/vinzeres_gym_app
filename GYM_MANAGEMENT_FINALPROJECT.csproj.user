@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AddMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddTrainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Attendenceform1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Calisthenics1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateCalisthenics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateCrossfit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreatePilates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateYoga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Crossfit1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DeleteCalisthenics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DeleteCrossfit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DeleteMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DeletePilates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DeleteTrainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DeleteYoga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditCalisthenics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditCrossfit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditPilates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditTrainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditYoga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MarkAttendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Memberform1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pilates1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Selectclass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TrainerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Trainerform1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TrainerSessionAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TrainerValidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewAttendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewCalisthenics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewCrossfit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewPilates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewTrainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewYoga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Yoga1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
