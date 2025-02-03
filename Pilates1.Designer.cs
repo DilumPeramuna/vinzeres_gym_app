@@ -39,78 +39,91 @@
             // 
             // button1
             // 
+            button1.BackColor = SystemColors.ControlLight;
+            button1.Font = new Font("Constantia", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.Location = new Point(12, 12);
             button1.Name = "button1";
             button1.Size = new Size(40, 23);
             button1.TabIndex = 0;
             button1.Text = "<---";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(170, 163);
+            button2.BackColor = SystemColors.ControlLight;
+            button2.Font = new Font("Constantia", 9.75F);
+            button2.Location = new Point(163, 188);
             button2.Name = "button2";
             button2.Size = new Size(197, 60);
             button2.TabIndex = 1;
             button2.Text = "CREATE";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(170, 274);
+            button3.BackColor = SystemColors.ControlLight;
+            button3.Font = new Font("Constantia", 9.75F);
+            button3.Location = new Point(163, 299);
             button3.Name = "button3";
             button3.Size = new Size(197, 60);
             button3.TabIndex = 2;
             button3.Text = "EDIT";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(425, 163);
+            button4.BackColor = SystemColors.ControlLight;
+            button4.Font = new Font("Constantia", 9.75F);
+            button4.Location = new Point(418, 188);
             button4.Name = "button4";
             button4.Size = new Size(197, 60);
             button4.TabIndex = 3;
             button4.Text = "DELETE";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(324, 27);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Constantia", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(317, 51);
             label1.Name = "label1";
-            label1.Size = new Size(155, 30);
+            label1.Size = new Size(164, 26);
             label1.TabIndex = 4;
             label1.Text = "PILATES CLASS";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
-            label2.Location = new Point(12, 85);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Constantia", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(31, 118);
             label2.Name = "label2";
-            label2.Size = new Size(318, 21);
+            label2.Size = new Size(329, 19);
             label2.TabIndex = 5;
-            label2.Text = "Select the operation you want to perfrom:";
+            label2.Text = "Select the operation you want to perform:";
             // 
             // button5
             // 
-            button5.Location = new Point(425, 273);
+            button5.BackColor = SystemColors.ControlLight;
+            button5.Font = new Font("Constantia", 9.75F);
+            button5.Location = new Point(418, 299);
             button5.Name = "button5";
-            button5.Size = new Size(188, 61);
+            button5.Size = new Size(197, 61);
             button5.TabIndex = 14;
             button5.Text = "VIEW";
-            button5.UseVisualStyleBackColor = true;
+            button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
             // Pilates1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.back11;
             ClientSize = new Size(800, 450);
             Controls.Add(button5);
             Controls.Add(label2);
