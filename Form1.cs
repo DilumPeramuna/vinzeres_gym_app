@@ -32,15 +32,39 @@ namespace GYM_MANAGEMENT_FINALPROJECT
                 MessageBox.Show("Incorrect Password!", "Access Denied", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-    
 
-        
+
+
 
         private void button2_Click(object sender, EventArgs e)
         {
-            TrainerValidation trainerValidation = new TrainerValidation();
-            trainerValidation.Show();
-            this.Close();
+            try
+            {
+                TrainerValidation trainerValidation = new TrainerValidation();
+                trainerValidation.Show();
+                this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error opening trainer form: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            base.OnFormClosing(e);
+            Application.Exit();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

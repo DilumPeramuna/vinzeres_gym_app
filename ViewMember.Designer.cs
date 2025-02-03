@@ -1,6 +1,6 @@
 ﻿namespace GYM_MANAGEMENT_FINALPROJECT
 {
-    partial class DeleteMember
+    partial class ViewMember
     {
         /// <summary>
         /// Required designer variable.
@@ -40,18 +40,18 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Constantia", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(16, 89);
+            label1.Location = new Point(145, 116);
             label1.Name = "label1";
-            label1.Size = new Size(574, 19);
+            label1.Size = new Size(493, 19);
             label1.TabIndex = 0;
-            label1.Text = "Enter the member ID of the member you want to remove from the system.";
+            label1.Text = "Enter the Member ID of the member you want to view details of";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Constantia", 9.75F);
-            label2.Location = new Point(280, 153);
+            label2.Font = new Font("Constantia", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(292, 213);
             label2.Name = "label2";
             label2.Size = new Size(68, 15);
             label2.TabIndex = 1;
@@ -59,36 +59,36 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(373, 148);
+            textBox1.Location = new Point(391, 208);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(117, 23);
+            textBox1.Size = new Size(113, 23);
             textBox1.TabIndex = 2;
             // 
             // button1
             // 
             button1.BackColor = SystemColors.ControlLight;
-            button1.Font = new Font("Constantia", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(695, 407);
+            button1.Font = new Font("Constantia", 9.75F, FontStyle.Bold);
+            button1.Location = new Point(699, 404);
             button1.Name = "button1";
-            button1.Size = new Size(93, 31);
+            button1.Size = new Size(89, 34);
             button1.TabIndex = 3;
             button1.Text = "Enter";
             button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click_1;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
             button2.BackColor = SystemColors.ControlLight;
-            button2.Font = new Font("Constantia", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Font = new Font("Constantia", 9.75F, FontStyle.Bold);
             button2.Location = new Point(12, 12);
             button2.Name = "button2";
-            button2.Size = new Size(39, 23);
+            button2.Size = new Size(40, 23);
             button2.TabIndex = 4;
             button2.Text = "<---";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
-            // DeleteMember
+            // ViewMember
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -99,8 +99,8 @@
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "DeleteMember";
-            Text = "DeleteMember";
+            Name = "ViewMember";
+            Text = "ViewMember";
             ResumeLayout(false);
             PerformLayout();
         }
