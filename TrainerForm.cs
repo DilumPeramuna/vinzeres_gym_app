@@ -1,4 +1,4 @@
-﻿using MySql.Data.MySqlClient;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,9 +21,9 @@ namespace GYM_MANAGEMENT_FINALPROJECT
         string connectionString = "server=localhost; database=vinzeresgym; uid=root; pwd=;";
         private void button1_Click(object sender, EventArgs e)
         {
-            TrainerValidation trainerValidation = new TrainerValidation();
-            trainerValidation.Show();
-            this.Close();
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
         }
 
         

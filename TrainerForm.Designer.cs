@@ -45,116 +45,132 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(321, 33);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Constantia", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(321, 50);
             label1.Name = "label1";
-            label1.Size = new Size(185, 25);
+            label1.Size = new Size(191, 23);
             label1.TabIndex = 0;
             label1.Text = "Class Access Section";
             // 
             // button1
             // 
+            button1.BackColor = SystemColors.ControlLight;
+            button1.Font = new Font("Constantia", 9.75F, FontStyle.Bold);
             button1.Location = new Point(12, 12);
             button1.Name = "button1";
             button1.Size = new Size(43, 29);
             button1.TabIndex = 1;
             button1.Text = "<---";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(23, 98);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Constantia", 12F, FontStyle.Bold);
+            label2.Location = new Point(42, 118);
             label2.Name = "label2";
-            label2.Size = new Size(402, 21);
+            label2.Size = new Size(417, 19);
             label2.TabIndex = 2;
-            label2.Text = "Enter the session Id of the session you want to access.";
+            label2.Text = "Enter the Session Id of the session you want to access.";
             label2.Click += label2_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(93, 152);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Constantia", 9.75F);
+            label3.Location = new Point(241, 169);
             label3.Name = "label3";
-            label3.Size = new Size(66, 15);
+            label3.Size = new Size(72, 15);
             label3.TabIndex = 3;
             label3.Text = "Session ID :";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(165, 144);
+            textBox1.Location = new Point(322, 165);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(134, 23);
             textBox1.TabIndex = 4;
             // 
             // button2
             // 
-            button2.Location = new Point(424, 344);
+            button2.BackColor = SystemColors.ControlLight;
+            button2.Font = new Font("Constantia", 9.75F, FontStyle.Bold);
+            button2.Location = new Point(440, 372);
             button2.Name = "button2";
             button2.Size = new Size(166, 29);
             button2.TabIndex = 5;
             button2.Text = "Change";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(23, 230);
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Constantia", 12F, FontStyle.Bold);
+            label4.Location = new Point(42, 242);
             label4.Name = "label4";
-            label4.Size = new Size(423, 21);
+            label4.Size = new Size(430, 19);
             label4.TabIndex = 6;
-            label4.Text = "Enter the member Id's you want to update in the session.";
+            label4.Text = "Enter the Member Id you want to update in the session.";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(56, 275);
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Constantia", 9.75F);
+            label5.Location = new Point(56, 291);
             label5.Name = "label5";
-            label5.Size = new Size(329, 15);
+            label5.Size = new Size(343, 15);
             label5.TabIndex = 7;
-            label5.Text = "Member id of the member you want to remove from session:";
+            label5.Text = "Member Id of the member you want to remove from session:";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(56, 309);
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Constantia", 9.75F);
+            label6.Location = new Point(56, 332);
             label6.Name = "label6";
-            label6.Size = new Size(314, 15);
+            label6.Size = new Size(329, 15);
             label6.TabIndex = 8;
-            label6.Text = "Member id of the member you want to add to the session:";
+            label6.Text = "Member Id of the member you want to add to the session:";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(424, 267);
+            textBox2.Location = new Point(440, 287);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(166, 23);
             textBox2.TabIndex = 9;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(424, 301);
+            textBox3.Location = new Point(440, 328);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(166, 23);
             textBox3.TabIndex = 10;
             // 
             // button3
             // 
-            button3.Location = new Point(340, 144);
+            button3.BackColor = SystemColors.ControlLight;
+            button3.Font = new Font("Constantia", 9.75F, FontStyle.Bold);
+            button3.Location = new Point(481, 159);
             button3.Name = "button3";
-            button3.Size = new Size(102, 23);
+            button3.Size = new Size(102, 31);
             button3.TabIndex = 11;
             button3.Text = "View ";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // TrainerForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.back11;
             ClientSize = new Size(800, 450);
             Controls.Add(button3);
             Controls.Add(textBox3);

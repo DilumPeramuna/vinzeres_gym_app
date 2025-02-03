@@ -234,6 +234,11 @@ namespace GYM_MANAGEMENT_FINALPROJECT
                 cmd.ExecuteNonQuery();
             }
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
    

@@ -38,58 +38,67 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(339, 20);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Constantia", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(320, 57);
             label1.Name = "label1";
-            label1.Size = new Size(143, 30);
+            label1.Size = new Size(153, 26);
             label1.TabIndex = 0;
-            label1.Text = "ATTENDENCE";
+            label1.Text = "ATTENDANCE";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(24, 95);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Constantia", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(24, 153);
             label2.Name = "label2";
-            label2.Size = new Size(429, 21);
+            label2.Size = new Size(442, 19);
             label2.TabIndex = 1;
-            label2.Text = "Select the operation you want to perfom on Attendence :";
+            label2.Text = "Select the operation you want to perfom on Attendance :";
             // 
             // button1
             // 
-            button1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(142, 167);
+            button1.BackColor = SystemColors.ControlLight;
+            button1.Font = new Font("Constantia", 9.75F);
+            button1.Location = new Point(142, 230);
             button1.Name = "button1";
             button1.Size = new Size(188, 61);
             button1.TabIndex = 2;
             button1.Text = "VIEW";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(449, 167);
+            button2.BackColor = SystemColors.ControlLight;
+            button2.Font = new Font("Constantia", 9.75F);
+            button2.Location = new Point(449, 230);
             button2.Name = "button2";
             button2.Size = new Size(188, 61);
             button2.TabIndex = 3;
             button2.Text = "MARK";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button3
             // 
+            button3.BackColor = SystemColors.ControlLight;
+            button3.Font = new Font("Constantia", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.Location = new Point(12, 12);
             button3.Name = "button3";
             button3.Size = new Size(45, 27);
             button3.TabIndex = 4;
             button3.Text = "<---";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // Attendenceform1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.back11;
             ClientSize = new Size(800, 450);
             Controls.Add(button3);
             Controls.Add(button2);

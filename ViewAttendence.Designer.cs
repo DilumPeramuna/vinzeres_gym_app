@@ -39,70 +39,80 @@
             // 
             // button1
             // 
+            button1.BackColor = SystemColors.ControlLight;
+            button1.Font = new Font("Constantia", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.Location = new Point(12, 12);
             button1.Name = "button1";
             button1.Size = new Size(41, 23);
             button1.TabIndex = 0;
             button1.Text = "<---";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 54);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Constantia", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(75, 98);
             label1.Name = "label1";
-            label1.Size = new Size(652, 21);
+            label1.Size = new Size(638, 19);
             label1.TabIndex = 1;
-            label1.Text = "Enter the session Id and the member Id of the member you want to view attendence of .";
+            label1.Text = "Enter the Session Id and Member Id of the member you want to view attendance of";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(275, 107);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Constantia", 9.75F);
+            label2.Location = new Point(270, 189);
             label2.Name = "label2";
-            label2.Size = new Size(69, 15);
+            label2.Size = new Size(75, 15);
             label2.TabIndex = 2;
             label2.Text = "Session ID : ";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(275, 143);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Constantia", 9.75F);
+            label3.Location = new Point(270, 225);
             label3.Name = "label3";
-            label3.Size = new Size(75, 15);
+            label3.Size = new Size(80, 15);
             label3.TabIndex = 3;
             label3.Text = "Member ID : ";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(365, 99);
+            textBox1.Location = new Point(360, 184);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(162, 23);
             textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(365, 135);
+            textBox2.Location = new Point(360, 220);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(162, 23);
             textBox2.TabIndex = 5;
             // 
             // button2
             // 
+            button2.BackColor = SystemColors.ControlLight;
+            button2.Font = new Font("Constantia", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.Location = new Point(699, 410);
             button2.Name = "button2";
             button2.Size = new Size(89, 28);
             button2.TabIndex = 6;
             button2.Text = "Enter";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // ViewAttendence
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.back11;
             ClientSize = new Size(800, 450);
             Controls.Add(button2);
             Controls.Add(textBox2);
