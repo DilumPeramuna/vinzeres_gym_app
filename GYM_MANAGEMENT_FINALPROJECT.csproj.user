@@ -88,9 +88,6 @@
     <Compile Update="Trainerform1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="TrainerSessionAccess.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="TrainerValidation.cs">
       <SubType>Form</SubType>
     </Compile>

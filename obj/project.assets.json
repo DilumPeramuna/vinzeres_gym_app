@@ -1609,19 +1609,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dpera\\.nuget\\packages\\": {}
+    "C:\\Users\\tharu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dpera\\source\\repos\\GYM_MANAGEMENT_FINALPROJECT\\GYM_MANAGEMENT_FINALPROJECT\\GYM_MANAGEMENT_FINALPROJECT.csproj",
+      "projectUniqueName": "C:\\Users\\tharu\\Downloads\\GYM_MANAGEMENT_FINALPROJECT\\GYM_MANAGEMENT_FINALPROJECT\\GYM_MANAGEMENT_FINALPROJECT.csproj",
       "projectName": "GYM_MANAGEMENT_FINALPROJECT",
-      "projectPath": "C:\\Users\\dpera\\source\\repos\\GYM_MANAGEMENT_FINALPROJECT\\GYM_MANAGEMENT_FINALPROJECT\\GYM_MANAGEMENT_FINALPROJECT.csproj",
-      "packagesPath": "C:\\Users\\dpera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dpera\\source\\repos\\GYM_MANAGEMENT_FINALPROJECT\\GYM_MANAGEMENT_FINALPROJECT\\obj\\",
+      "projectPath": "C:\\Users\\tharu\\Downloads\\GYM_MANAGEMENT_FINALPROJECT\\GYM_MANAGEMENT_FINALPROJECT\\GYM_MANAGEMENT_FINALPROJECT.csproj",
+      "packagesPath": "C:\\Users\\tharu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tharu\\Downloads\\GYM_MANAGEMENT_FINALPROJECT\\GYM_MANAGEMENT_FINALPROJECT\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\dpera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tharu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1646,7 +1651,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -1676,7 +1682,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
