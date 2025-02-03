@@ -37,54 +37,62 @@
             // 
             // button1
             // 
+            button1.BackColor = SystemColors.ControlLight;
+            button1.Font = new Font("Constantia", 9.75F, FontStyle.Bold);
             button1.Location = new Point(12, 12);
             button1.Name = "button1";
             button1.Size = new Size(41, 23);
             button1.TabIndex = 0;
             button1.Text = "<---";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
+            button2.BackColor = SystemColors.ControlLight;
+            button2.Font = new Font("Constantia", 9.75F, FontStyle.Bold);
             button2.Location = new Point(700, 409);
             button2.Name = "button2";
             button2.Size = new Size(88, 29);
             button2.TabIndex = 1;
             button2.Text = "Enter";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 61);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Constantia", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(151, 113);
             label1.Name = "label1";
-            label1.Size = new Size(457, 21);
+            label1.Size = new Size(481, 19);
             label1.TabIndex = 2;
             label1.Text = "Enter the Trainer ID of the trainer you want to view details of .";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(109, 114);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Constantia", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(301, 219);
             label2.Name = "label2";
-            label2.Size = new Size(56, 15);
+            label2.Size = new Size(65, 15);
             label2.TabIndex = 3;
             label2.Text = "Trainer ID";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(199, 106);
+            textBox1.Location = new Point(373, 214);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(136, 23);
             textBox1.TabIndex = 4;
             // 
             // ViewTrainer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.back11;
             ClientSize = new Size(800, 450);
             Controls.Add(textBox1);
             Controls.Add(label2);

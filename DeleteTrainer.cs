@@ -83,5 +83,10 @@ namespace GYM_MANAGEMENT_FINALPROJECT
             this.Close();
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

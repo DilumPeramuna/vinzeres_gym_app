@@ -46,67 +46,80 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Constantia", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(23, 52);
             label1.Name = "label1";
-            label1.Size = new Size(187, 21);
+            label1.Size = new Size(195, 19);
             label1.TabIndex = 0;
             label1.Text = "Add Trainer into system.";
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Constantia", 9.75F);
             label2.Location = new Point(99, 103);
             label2.Name = "label2";
-            label2.Size = new Size(69, 15);
+            label2.Size = new Size(75, 15);
             label2.TabIndex = 1;
             label2.Text = "Enter Name";
             // 
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Constantia", 9.75F);
             label3.Location = new Point(99, 142);
             label3.Name = "label3";
-            label3.Size = new Size(58, 15);
+            label3.Size = new Size(64, 15);
             label3.TabIndex = 2;
             label3.Text = "Enter Age";
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Constantia", 9.75F);
             label4.Location = new Point(99, 183);
             label4.Name = "label4";
-            label4.Size = new Size(83, 15);
+            label4.Size = new Size(97, 15);
             label4.TabIndex = 3;
             label4.Text = "Enter TrainerID";
             // 
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Constantia", 9.75F);
             label5.Location = new Point(99, 222);
             label5.Name = "label5";
-            label5.Size = new Size(94, 15);
+            label5.Size = new Size(104, 15);
             label5.TabIndex = 4;
             label5.Text = "Enter Experience";
             // 
             // button1
             // 
+            button1.BackColor = SystemColors.ControlLight;
+            button1.Font = new Font("Constantia", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.Location = new Point(706, 410);
             button1.Name = "button1";
             button1.Size = new Size(82, 28);
             button1.TabIndex = 5;
             button1.Text = "Enter";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
+            button2.BackColor = SystemColors.ControlLight;
+            button2.Font = new Font("Constantia", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.Location = new Point(12, 12);
             button2.Name = "button2";
             button2.Size = new Size(40, 23);
             button2.TabIndex = 6;
             button2.Text = "<---";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // textBox1
@@ -140,9 +153,11 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Constantia", 9.75F);
             label6.Location = new Point(99, 263);
             label6.Name = "label6";
-            label6.Size = new Size(94, 15);
+            label6.Size = new Size(99, 15);
             label6.TabIndex = 11;
             label6.Text = "Create Password";
             // 
@@ -157,6 +172,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.back11;
             ClientSize = new Size(800, 450);
             Controls.Add(textBox5);
             Controls.Add(label6);
